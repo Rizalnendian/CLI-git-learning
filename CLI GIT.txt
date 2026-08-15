@@ -20,4 +20,5 @@ Urutan pemakaian git
 * git commit -m "deskripsi perubahan file"
 * git log: melihat history commit
 * git log -angka: melihat history misalnya 7 terakhir
+* git log (nama file): melihat history spesifik file tertentu
 
