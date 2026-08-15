@@ -9,6 +9,7 @@ Urutan pemakaian git
 
 
 * pwd: untuk menampilkan working directory
+* clear: membersihkan tampilan cli
 * ls: untuk menampilkan isi folder tertentu
 * cd: memindahkan posisi kita terhadap direktori
 * git init: menjadikan sebuah direktori (posisi direktori saat dipilih) menjadi Git repository dan sebagai main 
