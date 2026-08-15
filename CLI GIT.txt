@@ -4,6 +4,7 @@ Urutan pemakaian git
 3. Cek status dengan git status jika ada file baru/perubahan file/penghapusan file
 4. Masukan file file tersebut ke dalam stagging area dengan git add (nama file) maupun git add.
 5. Lakukan commit dengan git commit -m "deskripsi perubahan file"
+6. jika ingin mengembalikan file yang di delete, atau mengembalikan kondisi sebelum commit tertentu maka setelahnya harus di commit lagi
 
 
 
