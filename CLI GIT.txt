@@ -1,8 +1,27 @@
+Urutan pemakaian git
+1. Pindahkan posisi ke folder yang akan dipakai sebagai area kerja atau working tree
+2. Inisiasi folder sebagai repositori
+3. Cek status dengan git status jika ada file baru/perubahan file/penghapusan file
+4. Masukan file file tersebut ke dalam stagging area dengan git add (nama file) maupun git add.
+5. Lakukan commit dengan git commit -m "deskripsi perubahan file"
+6. jika ingin mengembalikan file yang di delete, atau mengembalikan kondisi sebelum commit tertentu maka setelahnya harus di commit lagi
+
+
+
+
 * pwd: untuk menampilkan working directory
+* clear: membersihkan tampilan cli
 * ls: untuk menampilkan isi folder tertentu
 * cd: memindahkan posisi kita terhadap direktori
 * git init: menjadikan sebuah direktori (posisi direktori saat dipilih) menjadi Git repository dan sebagai main 
 * git status: menunjukan file baru/berubah yang belum di commit
-* git add (nama file.extensi): memasukkan file yang belum di commit ke stagging area
-* git rm --cached (nama file.extensi): mengeluarkan file dari stagging area
+* git add nama file.extensi: memasukkan file yang belum di commit ke stagging area
+* git add . : memasukkan semua file yang belum di commit ke stagging area
+* git rm --cached nama file.extensi: mengeluarkan file dari stagging area
 * git commit -m "deskripsi perubahan file"
+* git log: melihat history commit
+* git log -angka: melihat history misalnya 7 terakhir
+* git log --nama file: melihat history spesifik file tertentu
+* git checkout 5-digit-awal-has-commit: mengembalikan ke kondisi saat sebelum commit yang merubah isi direktori tsb
+* git checkout 5-digit-awal-has-commit --namafile: mengembalikan ke kondisi file sepsifik saat sebelum commit yang merubah isi file tsb
+
