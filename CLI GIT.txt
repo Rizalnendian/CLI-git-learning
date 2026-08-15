@@ -1,0 +1,3 @@
+* pwd: untuk menampilkan working directory
+* ls: untuk menampilkan isi folder tertentu
+* cd: memindahkan posisi kita terhadap direktori
