@@ -22,4 +22,5 @@ Urutan pemakaian git
 * git log -angka: melihat history misalnya 7 terakhir
 * git log --nama file: melihat history spesifik file tertentu
 * git checkout 5-digit-awal-has-commit: mengembalikan ke kondisi saat sebelum commit yang merubah isi direktori tsb
+* git checkout 5-digit-awal-has-commit --namafile: mengembalikan ke kondisi file sepsifik saat sebelum commit yang merubah isi file tsb
 
