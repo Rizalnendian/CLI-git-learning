@@ -3,4 +3,5 @@
 * cd: memindahkan posisi kita terhadap direktori
 * git init: menjadikan sebuah direktori (posisi direktori saat dipilih) menjadi Git repository dan sebagai main 
 * git status: menunjukan file baru/berubah yang belum di commit
-*
+* git add (nama file.extensi): memasukkan file yang belum di commit ke stagging area
+
